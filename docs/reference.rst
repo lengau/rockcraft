@@ -126,6 +126,7 @@ Rockcraft parts are inherited from other existing Craft tools like
 
 Rockcraft *parts* go through the same lifecycle steps as Charmcraft and
 `Snapcraft parts <https://snapcraft.io/docs/parts-lifecycle>`_.
+Craft-Parts has its own documentation about :external:craft-parts:doc:`explanation/parts`.
 
 The way the *parts*' keys and values are used in the *rockcraft.yaml* is exactly
 the same as in *`snapcraft.yaml`_*

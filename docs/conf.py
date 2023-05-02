@@ -52,6 +52,7 @@ release = rockcraft.__version__
 # ones.
 extensions = [
     "sphinx.ext.autodoc",
+    "sphinx.ext.intersphinx",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
     "sphinx_copybutton",
@@ -98,3 +99,7 @@ typehints_document_rtype = True
 
 # Enable support for google-style instance attributes.
 napoleon_use_ivar = True
+
+intersphinx_mapping = {
+    "craft-parts": ("https://canonical-craft-parts.readthedocs-hosted.com/en/latest/", "https://canonical-craft-parts.readthedocs-hosted.com/en/latest/objects.inv")
+}
